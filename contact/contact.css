@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;400&display=swap');
+@import url('../style.css');
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+.nav-item:not(:last-child){
+    margin-right: 42px;
+}
+.nav-link{
+    color:  #333136;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 2px;
+    
+    
+}
+.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(202, 201, 201);
+}
+footer{
+    background-color: rgba(29, 28, 30, 1);
+    padding:72px 0px;
+}
+footer nav{
+    margin-bottom: 46px;
+}
+.icon{
+    color:rgba(231, 129, 107, 1);
+    font-size: 24px;
+}
+.icon:hover{
+    color: rgba(255, 173, 155, 1);
+    
+}
+.address-list{
+    list-style: none;
+    opacity: .5;
+    font-weight: 700;
+}
+.learn-more-btn{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ 
+ .btn:hover{
+     background-color: rgba(255, 173, 155, 1)!important;
+     color: #fff!important;
+     border-color: transparent!important;
+ }
+ .contact-us{
+     background-image: url('../img/Oval\ \(2\).png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 55px 92px;
+     margin-bottom: 160px;
+     border-radius: 15px;
+ }
+.contact-us-form{
+    background-color: transparent;
+    position: relative;
+}
+.contact-us-form input,.contact-us-form textarea {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    
+}
+.submit-btn{
+    display: inline-block;
+    width: 152px;
+    height: 56px;
+    background-color: #fff !important;
+    border:0 !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.form-item::placeholder{
+    color: #fff;
+    opacity: .5;
+} 
+.form-item:focus{
+    outline: transparent;
+}
+.learn-more-btn{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color:rgba(231, 129, 107, 1)!important;
+    color: #fff!important;
+ }
+ .cards{
+     margin-bottom: 160px;
+ }
+ .contact-us-title{
+     font-size: 48px;
+    
+ }
+.form-item{
+    color: #fff;
+    font-weight: 500;
+}
+ .form-item:hover{
+     border-bottom: 3px solid #fff;
+
+ }
+ .form-item:hover::placeholder{
+     opacity: 1;
+ }
+ .warning{
+     position: absolute;
+     top: 21.5%;
+     right: 0;
+     display: none;
+ }
+.form-item[type="email"]:focus ~ .warning{
+    display: inline-block;
+}

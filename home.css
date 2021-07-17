@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;400&display=swap');
+@import url('./style.css');
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+.nav-item:not(:last-child){
+    margin-right: 42px;
+}
+.nav-link{
+    color:  #333136;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 2px;
+    
+    
+}
+.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(202, 201, 201);
+}
+
+
+.learn-more{
+   position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    color: #fff;
+    background-image: url('./img/Group\ 64\ Copy.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding:145px 95px;
+   margin-bottom: 160px;
+   margin-right: -12px;
+   margin-left: -12px;
+    
+}
+ .learn-more-btn{
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+.btn:hover{
+    background-color: rgba(255, 173, 155, 1)!important;
+    color: #fff!important;
+    border-color: transparent!important;
+}
+
+.phone-img{
+    display: none;
+}
+.view-projects{
+    margin-bottom: 160px;
+}
+.view-projects .col-lg-6{
+   
+    text-align: center;
+  
+}
+.box{
+    border-radius: 15px;
+    position: relative;
+}
+.box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:  rgba(231, 129, 107, 0.6);
+    border-radius: 15px;
+    display: none;
+    z-index: 0;
+    
+}
+.box:hover::before{
+    display: block;
+}
+
+.first-box{
+    background-image: url('./img/Bitmap\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+    width: 100%;
+}
+.second-box{
+    height: 308px;
+    width: 100%;
+    background-image: url('./img/Bitmap.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.third-box{
+    height: 308px;
+    width: 100%;
+    background-image: url('./img/Bitmap (1).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.view-projects-title{
+    letter-spacing: 2px;
+    font-size: 40px;
+    top: 38%;
+  
+}
+.first-box .view-projects-title{
+    top: 45%;
+}
+.first-box .view-projects-link{
+    top: 55%;
+    
+
+}
+.second-box .view-projects-link, .third-box .view-projects-link{
+    top: 60%;
+}
+.view-projects-link{
+    letter-spacing: 5px;
+}
+.view-projects-title, .view-projects-link{
+    position: absolute;
+    z-index: 22;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.card-title{
+    letter-spacing: 5px;
+}
+.cards{
+    background-image: url();
+}
+.get-in-touch{
+    margin: 0 auto;
+    background:url('./img/Group\ 28.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 72px 95px;
+    border-radius: 15px;
+    margin-top: 0px;
+    transform: translateY(79px);
+}
+.get-in-touch-title{
+    font-size: 40px;
+}
+footer{
+    background-color: rgba(29, 28, 30, 1);
+    padding: 151px 0px 72px 0px;
+}
+footer nav{
+    margin-bottom: 46px;
+}
+.icon{
+    color:rgba(231, 129, 107, 1);
+    font-size: 24px;
+}
+.icon:hover{
+    color: rgba(255, 173, 155, 1);
+    
+}
+.address-list{
+    list-style: none;
+    opacity: .5;
+    font-weight: 700;
+}

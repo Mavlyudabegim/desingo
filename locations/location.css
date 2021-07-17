@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;400&display=swap');
+@import url('../style.css');
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+.nav-item:not(:last-child){
+    margin-right: 42px;
+}
+.nav-link{
+    color:  #333136;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 2px;
+    
+    
+}
+.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(202, 201, 201);
+}
+.address-body{
+    background-image: url('../img/Group\ 6\ \(2\).png');
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 88px 95px;
+}
+.location-title{
+    color: rgba(231, 129, 107, 1);
+    font-size: 40px;
+}
+.location-list{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.map{
+    border-radius: 15px;
+}
+.get-in-touch{
+    margin: 0 auto;
+    background:url('../img/Group\ 28.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 72px 95px;
+    border-radius: 15px;
+    margin-top: 0px;
+    transform: translateY(79px);
+}
+.get-in-touch-title{
+    font-size: 40px;
+}
+footer{
+    background-color: rgba(29, 28, 30, 1);
+    padding: 151px 0px 72px 0px;
+}
+footer nav{
+    margin-bottom: 46px;
+}
+.icon{
+    color:rgba(231, 129, 107, 1);
+    font-size: 24px;
+}
+.icon:hover{
+    color: rgba(255, 173, 155, 1);
+    
+}
+.address-list{
+    list-style: none;
+    opacity: .5;
+    font-weight: 700;
+}
+.learn-more-btn{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ 
+ .btn:hover{
+     background-color: rgba(255, 173, 155, 1)!important;
+     color: #fff!important;
+     border-color: transparent!important;
+ }
+ 

@@ -1,0 +1,87 @@
+/* About us tablet responsive */
+@media (min-width: 1024px) and (max-width: 1365px){
+    .left{
+        padding: 65px 0px 0px 95px;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    
+    .left{
+        padding: 64px 58px;
+    }
+    .coworking-image{
+        height: auto;
+        object-position: 50% 50%;
+    }
+    .first-image{
+        display: none;
+    }
+    .second-image{
+        display: block;
+    }
+    footer{
+        padding: 166px 40px 80px 40px;
+    }
+    .real-deal{
+        border-radius: 15px;
+        background-position: center;
+    }
+}
+/* About us mobile responsive */
+@media (min-width: 320px) and (max-width: 765px){
+   header .nav-link{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .learn-more{
+        margin-left: -12px;
+        margin-right: -12px;
+        border-radius: 0;
+        background-image: url('../img/Group\ 7.png');
+        margin-bottom: 0;
+        
+    }
+    .left{
+        padding: 80px 24px;
+    }
+    .talent{
+        margin-left: -12px;
+        margin-right: -12px;
+        border-radius: 0;
+        
+    }
+    .talent-title{
+        font-size: 32px;
+    }
+    .right{
+        padding:80px 24px!important;
+        text-align: center;
+        background-image: url('../img/Group\ 8.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .get-in-touch{
+        padding: 64px 24px;
+    }
+    footer{
+        padding: 230px 24px 64px 24px;
+    }
+    footer .navbar{
+        flex-direction: column;
+    }
+  
+   footer .nav-item:not(:last-child) {
+        margin-right: 0px;
+    }
+    .get-in-touch{
+        transform: translateY(189px);
+    }
+    .line{
+        transform: translateY(-180px);
+    }
+    .real-deal{
+        margin-bottom: 0;
+        background-position: center;
+    }
+}

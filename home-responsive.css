@@ -1,0 +1,113 @@
+/* Home tablet responsive */
+@media (min-width: 1200px) and (max-width: 1399px){
+    .learn-more{
+        background-position: center;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+    .learn-more{
+        background-size: cover;
+        background-position: -380px center;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .learn-more{
+        padding: 60px 58px;
+        height: 100vh;
+        background-image: url('./img/Oval.png');
+        background-position: center;
+    
+    }
+    .learn-more .col-md-12{
+        z-index: 33;
+    }
+    .learn-more-title{
+        font-size: 48px;
+    }
+    .learn-more-text{
+        padding: 0 59px;
+    }
+    .box{
+        height: 200px;
+        
+    }
+    .first-box{
+        background-position: bottom;
+    }
+    .second-box{
+        background-position: center;
+    }
+   .first-box .view-projects-title, .view-projects-title{
+        top: 30%;
+    }
+    .first-box .view-projects-link{
+        top:60%;
+    }
+    .card{
+        display: flex;
+        flex-direction:row!important;
+    }
+    footer{
+        padding: 166px 40px 80px 40px;
+    }
+}
+/* Home mobile responsive */
+@media (min-width: 320px) and (max-width: 765px){
+   header .nav-link{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .learn-more{
+        padding: 80px 24px;
+        height: 843px;
+        background-position: 46%;
+        margin-bottom: 120px;
+        border-radius: 0;
+    }
+    .learn-more-title{
+        font-size: 32px;
+    }
+    .learn-more .col-md-12{
+        z-index: 33;
+        
+    }
+    .phone-img{
+        display: block;
+    }
+    .box{
+        height: 250px;
+    }
+    .first-box .view-projects-title,  .view-projects-title{
+        font-size: 28px;
+        top: 40%;
+      
+    }
+    .second-box .view-projects-link, .third-box .view-projects-link{
+        top: 55%;
+    }
+    .first-box{
+        background-position: bottom;
+    }
+    .second-box{
+        background-position: center;
+    }
+    .get-in-touch{
+        padding: 64px 24px;
+    }
+    footer{
+        padding: 230px 24px 64px 24px;
+    }
+    footer .navbar{
+        flex-direction: column;
+    }
+  
+   footer .nav-item:not(:last-child) {
+        margin-right: 0px;
+    }
+    .get-in-touch{
+        transform: translateY(189px);
+    }
+    .line{
+        transform: translateY(-180px);
+    }
+}

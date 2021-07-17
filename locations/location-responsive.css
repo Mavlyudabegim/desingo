@@ -1,0 +1,62 @@
+@media (min-width: 979px) and (max-width: 1365px){
+.map:first-child{
+    width: 100%;
+    height: 100%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    footer{
+        padding: 166px 40px 80px 40px;
+    }
+    
+}
+
+/* Home mobile responsive */
+@media (min-width: 320px) and (max-width: 765px){
+    .nav-link{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .row{
+        
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .row>*{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .map{
+        border-radius: 0;
+    }
+    .location-item{
+        margin-left: -12px;
+        margin-right: -12px;
+        border-radius: 0;
+    }
+    .address-body{
+       background-image: url('../img/Group\ 8\ \(1\).png');
+       border-radius: 0;
+       padding: 80px 24px;
+    }
+    .get-in-touch{
+        padding: 64px 24px;
+    }
+    footer{
+        padding: 230px 24px 64px 24px;
+    }
+    footer .navbar{
+        flex-direction: column;
+    }
+  
+   footer .nav-item:not(:last-child) {
+        margin-right: 0px;
+    }
+    .get-in-touch{
+        transform: translateY(189px);
+    }
+    .line{
+        transform: translateY(-180px);
+    }
+}
